@@ -1,4 +1,8 @@
-# customVectorImpl
+# Implementation of a custom vector
+
+In this project, I implemented a custom vector that operates similarly to `small_vector`, 
+and compared its performance with existing vectors from the STL, Boost, and LLVM libraries. 
+My vector is called `test::vector`.
 
 ## Test Results:
 

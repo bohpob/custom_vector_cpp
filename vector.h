@@ -1,3 +1,5 @@
+#pragma once
+
 #include <cstdlib>
 #include <algorithm>
 #include <utility>
@@ -17,8 +19,10 @@ namespace test {
 
         // Swap two vectors using static buffers.
         void swap_between_static_buffers(vector &);
+
         // Swap dynamic and static buffers.
         void swap_dynamic_with_static(vector &, vector &);
+
         // Check if the vector is using the static buffer.
         bool is_using_static_buffer();
 
@@ -39,7 +43,7 @@ namespace test {
 
         const T *data() const; //  Pointer to the first element (const version).
 
-        T &operator[](size_t);  // Access element by index.
+        T &operator[](size_t); // Access element by index.
 
         const T &operator[](size_t) const; // Access element by index (const version).
 
